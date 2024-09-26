@@ -2,7 +2,7 @@ from helper import Helper
 
 
 class StarBurgersData:
-    NAME_LEGTH = 8
+    NAME_LEGTH = 4
     MAX_PRICE = 100
     INGREDIENT_TYPES = ['SAUCE', 'FILLING']
     RANDOM_NAME = Helper.random_name(NAME_LEGTH)
